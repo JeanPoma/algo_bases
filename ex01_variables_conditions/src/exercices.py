@@ -38,7 +38,14 @@ def est_bissextile(year: int) -> bool:
         - 1900 n'est pas bissextile (divisible par 100, mais pas par 400).
         - 2004 est bissextile (divisible par 4, mais pas par 100).
     """
-    raise NotImplementedError
+    if year % 400 == 0:
+        return True
+    elif year % 100 == 0:
+        return False
+    elif year % 4 == 0:
+        return True
+
+    return False
 
 def racine_carree(x: float) -> float:
     """Retourne la racine carrée d'un nombre."""
