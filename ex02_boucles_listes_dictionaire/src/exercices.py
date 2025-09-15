@@ -142,8 +142,7 @@ def compter_occurrences_tuples(items: tuple[int, ...], valeur: int) -> int:
 
 
 def table_multiplication_tuples(n: int) -> tuple[int, ...]:
-    # TODO: Implémentez la fonction pour retourner la table de multiplication (jusqu'à 10 inclus) sous forme de tuple.
-    raise NotImplementedError
+    return tuple(n * i for i in range(1, 11))
 
 
 def trouver_maximum_tuples(nums: tuple[int, ...]) -> int:

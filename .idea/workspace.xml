@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2402a646-b5a0-456e-992f-4d7e39f8aac1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algo_bases-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algo_bases-main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projet-algorithmie-python-v2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2402a646-b5a0-456e-992f-4d7e39f8aac1" name="Changes" comment="test passed : compter_occurrences_tuples">
       <change beforePath="$PROJECT_DIR$/ex02_boucles_listes_dictionaire/src/exercices.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex02_boucles_listes_dictionaire/src/exercices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +27,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_caracteres.executor": "Run",
+    "Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_occurrences_tuples.executor": "Run",
+    "Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_inverser_chaine.executor": "Run",
+    "Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_somme_pairs_tuples.executor": "Run",
     "Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_trouver_mot_finissant_par.executor": "Run",
+    "Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_trouver_occurrences_chaine.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_caracteres">
-    <configuration name="pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_caracteres" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_table_multiplication_tuples">
+    <configuration name="pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_occurrences_tuples" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="algo_bases-main" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,11 +52,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_caracteres&quot;" />
+      <option name="_new_target" value="&quot;ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_occurrences_tuples&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_trouver_mot_finissant_par" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_inverser_chaine" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="algo_bases-main" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,14 +69,68 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ex02_boucles_listes_dictionaire.tests.test_exercices.test_trouver_mot_finissant_par&quot;" />
+      <option name="_new_target" value="&quot;ex02_boucles_listes_dictionaire.tests.test_exercices.test_inverser_chaine&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_somme_pairs_tuples" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algo_bases-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ex02_boucles_listes_dictionaire.tests.test_exercices.test_somme_pairs_tuples&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_table_multiplication_tuples" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algo_bases-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ex02_boucles_listes_dictionaire.tests.test_exercices.test_table_multiplication_tuples&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_trouver_occurrences_chaine" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algo_bases-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ex02_boucles_listes_dictionaire.tests.test_exercices.test_trouver_occurrences_chaine&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_caracteres" />
-        <item itemvalue="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_trouver_mot_finissant_par" />
+        <item itemvalue="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_table_multiplication_tuples" />
+        <item itemvalue="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_compter_occurrences_tuples" />
+        <item itemvalue="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_somme_pairs_tuples" />
+        <item itemvalue="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_trouver_occurrences_chaine" />
+        <item itemvalue="Python tests.pytest for ex02_boucles_listes_dictionaire.tests.test_exercices.test_inverser_chaine" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +149,66 @@
       <option name="presentableId" value="Default" />
       <updated>1757944830873</updated>
     </task>
+    <task id="LOCAL-00001" summary="test passed : compter_caracteres">
+      <option name="closed" value="true" />
+      <created>1757945616336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945616336</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test passed : inverser_chaine">
+      <option name="closed" value="true" />
+      <created>1757946030653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757946030653</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test passed : trouver_occurrences_chaine">
+      <option name="closed" value="true" />
+      <created>1757946165242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757946165242</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test passed : somme_pairs_tuples">
+      <option name="closed" value="true" />
+      <created>1757946381334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757946381334</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test passed : compter_occurrences_tuples">
+      <option name="closed" value="true" />
+      <created>1757946429391</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757946429391</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test passed : compter_caracteres" />
+    <MESSAGE value="test passed : inverser_chaine" />
+    <MESSAGE value="test passed : trouver_occurrences_chaine" />
+    <MESSAGE value="test passed : somme_pairs_tuples" />
+    <MESSAGE value="test passed : compter_occurrences_tuples" />
+    <option name="LAST_COMMIT_MESSAGE" value="test passed : compter_occurrences_tuples" />
   </component>
 </project>
