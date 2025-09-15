@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from os.path import split
-
 from ex01_variables_conditions.src.exercices import est_pair
 
 def somme_pairs(nums: list[int]) -> int:
@@ -102,8 +100,8 @@ def trouver_mot_finissant_par(items: str, suffixe: str) -> list[str]:
     return resultat
 
 
-def compter_caracteres(s: str) -> int:
-    # TODO: Implémentez une fonction pour compter et retourner le nombre total de caractères dans la chaîne.
+def compter_caracteres(s: str, char: str) -> int:
+    # TODO: Implémentez une fonction pour compter le nombre d'occurences du caractère char et retourner le nombre total.
     raise NotImplementedError
 
 
@@ -168,7 +166,7 @@ def compter_negatifs_sets(nums: set[int]) -> int:
 
 # dictionnaires
 
-def ajouter_element(d: dict, cle: str, valeur) -> dict:
+def ajouter_element(d: dict, cle: str, valeur: any) -> dict:
     # TODO: Implémentez une fonction pour ajouter une clé et sa valeur dans un dictionnaire.
     raise NotImplementedError
 
@@ -195,12 +193,12 @@ def compter_valeurs(d: dict) -> int:
     raise NotImplementedError
 
 
-def trouver_valeur_maximale(d: dict):
+def trouver_valeur_maximale(d: dict) -> any:
     # TODO: Implémentez une fonction pour trouver et retourner la valeur la plus grande dans un dictionnaire.
     raise NotImplementedError
 
 
-def trouver_cle_par_valeur(d: dict, valeur) -> list[str]:
+def trouver_cle_par_valeur(d: dict, valeur: any) -> list[str]:
     # TODO: Implémentez une fonction pour retourner une liste de toutes les clés correspondant à une valeur donnée.
     raise NotImplementedError
 
@@ -215,6 +213,6 @@ def valeurs_uniques(d: dict) -> set:
     raise NotImplementedError
 
 
-def mettre_a_jour_valeur(d: dict, cle: str, nouvelle_valeur) -> dict:
+def mettre_a_jour_valeur(d: dict, cle: str, nouvelle_valeur: any) -> dict:
     # TODO: Implémentez une fonction pour mettre à jour une valeur associée à une clé existante ou en ajouter une nouvelle.
     raise NotImplementedError

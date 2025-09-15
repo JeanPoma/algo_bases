@@ -96,7 +96,7 @@ def test_trouver_mot_finissant_par():
 
 
 def test_compter_caracteres():
-    assert compter_caracteres("Bonjour tout le monde", "o") == 3
+    assert compter_caracteres("Bonjour tout le monde", "o") == 4
     assert compter_caracteres("", "a") == 0
 
 
@@ -183,7 +183,8 @@ def test_inverser_dictionnaire():
 
 
 def test_compter_valeurs():
-    assert compter_valeurs({"a": 1, "b": 1, "c": 2}, 1) == 2
+    assert compter_valeurs({"a": 1, "b": 1, "c": 2}) == 3
+    assert compter_valeurs({}) == 0
 
 
 def test_trouver_valeur_maximale():
