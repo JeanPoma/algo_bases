@@ -13,8 +13,9 @@ def produit(a: int, b: int) -> int:
 
 def est_pair(n: int) -> bool:
     """Vrai si le nombre est pair."""
-    # TODO
-    raise NotImplementedError
+    if n % 2 == 0:
+        return True
+    return False
 
 def est_voyelle(lettre: str) -> bool:
     """Vrai si la lettre est une voyelle."""
