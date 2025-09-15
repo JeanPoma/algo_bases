@@ -87,6 +87,5 @@ def factorielle(n: int) -> int:
 
 def convertir_en_binaire(n: int) -> str:
     """Convertit un entier en représentation binaire."""
-    # TODO
-    raise NotImplementedError
+    return f"{n:b}"
 
