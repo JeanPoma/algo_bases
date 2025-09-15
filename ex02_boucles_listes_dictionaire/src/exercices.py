@@ -155,8 +155,15 @@ def trouver_maximum_tuples(nums: tuple[int, ...]) -> int:
 
 
 def calculer_moyenne_tuples(nums: tuple[int, ...]) -> float:
-    # TODO: Implémentez une fonction pour calculer et retourner la moyenne des nombres dans un tuple.
-    raise NotImplementedError
+    if len(nums) == 0:
+        return 0
+
+    total = 0
+    for number in nums:
+        total += number
+
+    return total / len(nums)
+
 
 # sets
 
