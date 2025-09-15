@@ -19,8 +19,10 @@ def est_pair(n: int) -> bool:
 
 def est_voyelle(lettre: str) -> bool:
     """Vrai si la lettre est une voyelle."""
-    # TODO
-    raise NotImplementedError
+    if lettre.lower() in "aeiouy":
+        return True
+    return False
+
 
 def calcul_reduction(prix: float, taux: float) -> float:
     """Retourne le prix après remise (taux en pourcentage)."""
