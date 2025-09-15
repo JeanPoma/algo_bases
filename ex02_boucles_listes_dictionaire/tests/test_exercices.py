@@ -88,8 +88,11 @@ def test_compter_mots_commencant_par():
 
 
 def test_trouver_mot_finissant_par():
-    assert trouver_mot_finissant_par("Bonjour tout le monde", "r") == "Bonjour"
-    assert trouver_mot_finissant_par("", "e") == ""
+    assert trouver_mot_finissant_par("Bonjour tout le monde", "r") == ["Bonjour"]
+    assert trouver_mot_finissant_par("Bonjour tout le monde", "out") == ["tout"]
+    assert trouver_mot_finissant_par("Bonjour tout le monde", "e") == ["le", "monde"]
+    assert trouver_mot_finissant_par("Bonjour tout le monde", "r") == ["Bonjour"]
+    assert trouver_mot_finissant_par("", "e") == []
 
 
 def test_compter_caracteres():

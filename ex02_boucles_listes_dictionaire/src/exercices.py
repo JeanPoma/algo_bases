@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 from ex01_variables_conditions.src.exercices import est_pair
 
 def somme_pairs(nums: list[int]) -> int:
@@ -24,8 +25,12 @@ def table_multiplication(n: int) -> list[int]:
 
 
 def trouver_maximum(nums: list[int]) -> int:
-    # TODO: Implémentez une fonction pour trouver et retourner la valeur maximale dans la liste.
-    raise NotImplementedError
+    maximum = nums[0]
+    for number in nums:
+        if number > maximum:
+            maximum = number
+
+    return maximum
 
 
 def calculer_moyenne(nums: list[int]) -> float:
@@ -38,8 +43,8 @@ def compter_negatifs(nums: list[int]) -> int:
     raise NotImplementedError
 
 
-def compter_mots(items: list[str], mot: str) -> int:
-    # TODO: Implémentez une fonction pour compter le nombre d'occurrences de `mot` dans une liste de chaînes de caractères.
+def compter_mots(phrase: str) -> int:
+    # TODO: Implémentez une fonction pour compter le nombre de mots dans une chaîne de caractères donnée.
     raise NotImplementedError
 
 
