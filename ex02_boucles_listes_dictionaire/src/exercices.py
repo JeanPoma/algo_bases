@@ -118,8 +118,8 @@ def inverser_chaine(s: str) -> str:
 
 
 def trouver_occurrences_chaine(s: str, c: str) -> int:
-    # TODO: Implémentez une fonction pour compter les occurrences d'un caractère donné dans une chaîne.
-    raise NotImplementedError
+    result = s.split(c)
+    return len(result) - 1
 
 # tuples
 def somme_pairs_tuples(nums: tuple[int, ...]) -> int:
