@@ -146,8 +146,12 @@ def table_multiplication_tuples(n: int) -> tuple[int, ...]:
 
 
 def trouver_maximum_tuples(nums: tuple[int, ...]) -> int:
-    # TODO: Implémentez une fonction pour trouver et retourner le nombre maximum d'un tuple.
-    raise NotImplementedError
+    maximum = nums[0]
+    for number in nums:
+        if number > maximum:
+            maximum = number
+
+    return maximum
 
 
 def calculer_moyenne_tuples(nums: tuple[int, ...]) -> float:
