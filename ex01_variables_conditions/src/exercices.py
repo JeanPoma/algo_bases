@@ -24,9 +24,9 @@ def est_voyelle(lettre: str) -> bool:
 def calcul_reduction(prix: float, taux: float) -> float:
     """Retourne le prix après remise (taux en pourcentage)."""
     if prix < 0:
-        raise ValueError
+        raise ValueError("Prix négatif.")
 
-    if taux > 100:
+    if taux >= 100:
         return 0.0
 
     return prix * (1 - taux / 100)
@@ -47,7 +47,7 @@ def est_bissextile(year: int) -> bool:
 def racine_carree(x: float) -> float:
     """Retourne la racine carrée d'un nombre."""
     if x < 0:
-        raise ValueError
+        raise ValueError("Nombre négatif.")
 
     return x**0.5
 
@@ -74,8 +74,15 @@ def factorielle(n: int) -> int:
         – Multiplier le résultat actuel par i.
     4. Retourner le résultat.
     """
-    # TODO
-    raise NotImplementedError
+    if n < 0:
+        raise ValueError("Nombre négatif.")
+
+    resultat = 1
+    for i in range(1, n + 1):
+        resultat *= i
+
+    return resultat
+
 
 
 def convertir_en_binaire(n: int) -> str:
