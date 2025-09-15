@@ -121,10 +121,15 @@ def trouver_occurrences_chaine(s: str, c: str) -> int:
     result = s.split(c)
     return len(result) - 1
 
+
 # tuples
 def somme_pairs_tuples(nums: tuple[int, ...]) -> int:
-    # TODO: Implémentez la fonction pour calculer la somme de tous les nombres pairs dans un tuple donné.
-    raise NotImplementedError
+    resultat = 0
+    for number in nums:
+        if est_pair(number):
+            resultat += number
+
+    return resultat
 
 
 def compter_occurrences_tuples(items: tuple[int, ...], valeur: int) -> int:
@@ -173,7 +178,7 @@ def compter_negatifs_sets(nums: set[int]) -> int:
 
 # dictionnaires
 
-def ajouter_element(d: dict, cle: str, valeur: any) -> dict:
+def ajouter_element(d: dict, cle: str, valeur) -> dict:
     # TODO: Implémentez une fonction pour ajouter une clé et sa valeur dans un dictionnaire.
     raise NotImplementedError
 
@@ -200,12 +205,12 @@ def compter_valeurs(d: dict) -> int:
     raise NotImplementedError
 
 
-def trouver_valeur_maximale(d: dict) -> any:
+def trouver_valeur_maximale(d: dict):
     # TODO: Implémentez une fonction pour trouver et retourner la valeur la plus grande dans un dictionnaire.
     raise NotImplementedError
 
 
-def trouver_cle_par_valeur(d: dict, valeur: any) -> list[str]:
+def trouver_cle_par_valeur(d: dict, valeur) -> list[str]:
     # TODO: Implémentez une fonction pour retourner une liste de toutes les clés correspondant à une valeur donnée.
     raise NotImplementedError
 
@@ -220,6 +225,6 @@ def valeurs_uniques(d: dict) -> set:
     raise NotImplementedError
 
 
-def mettre_a_jour_valeur(d: dict, cle: str, nouvelle_valeur: any) -> dict:
+def mettre_a_jour_valeur(d: dict, cle: str, nouvelle_valeur) -> dict:
     # TODO: Implémentez une fonction pour mettre à jour une valeur associée à une clé existante ou en ajouter une nouvelle.
     raise NotImplementedError
