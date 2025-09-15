@@ -15,13 +15,15 @@ def est_pair(n: int) -> bool:
     """Vrai si le nombre est pair."""
     if n % 2 == 0:
         return True
-    return False
+    else:
+        return False
 
 def est_voyelle(lettre: str) -> bool:
     """Vrai si la lettre est une voyelle."""
     if lettre.lower() in "aeiouy":
         return True
-    return False
+    else:
+        return False
 
 
 def calcul_reduction(prix: float, taux: float) -> float:
@@ -44,18 +46,22 @@ def est_bissextile(year: int) -> bool:
         return False
     elif year % 4 == 0:
         return True
-
-    return False
+    else:
+        return False
 
 def racine_carree(x: float) -> float:
     """Retourne la racine carrée d'un nombre."""
-    # TODO
-    raise NotImplementedError
+    if x < 0:
+        raise ValueError
+    else:
+        return x**0.5
+
 
 def maximum_trois(a: int, b: int, c: int) -> int:
     """Renvoie le maximum de trois valeurs sans utiliser max()."""
     # TODO
     raise NotImplementedError
+
 
 def factorielle(n: int) -> int:
     """Retourne la factorielle d'un entier.
@@ -68,6 +74,7 @@ def factorielle(n: int) -> int:
     """
     # TODO
     raise NotImplementedError
+
 
 def convertir_en_binaire(n: int) -> str:
     """Convertit un entier en représentation binaire."""
