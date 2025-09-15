@@ -122,7 +122,7 @@ def compter_negatifs_sets(nums: set[int]) -> int:
 
 # dictionnaires
 
-def ajouter_element(d: dict, cle: str, valeur: any) -> dict:
+def ajouter_element(d: dict, cle: str, valeur) -> dict:
     # TODO: Implémentez une fonction pour ajouter une clé et sa valeur dans un dictionnaire.
     raise NotImplementedError
 
@@ -140,7 +140,7 @@ def fusionner_dictionnaires(d1: dict, d2: dict) -> dict:
 
 def inverser_dictionnaire(d: dict) -> dict:
     # TODO: Implémentez une fonction pour inverser un dictionnaire, échangeant les clés et les valeurs.
-    # Note: Si des valeurs duplicatées existent, une erreur ou un comportement spécifique doit être défini.
+    # Note: Si des valeurs dupliquées existent, une erreur ou un comportement spécifique doit être défini.
     raise NotImplementedError
 
 
@@ -149,12 +149,12 @@ def compter_valeurs(d: dict) -> int:
     raise NotImplementedError
 
 
-def trouver_valeur_maximale(d: dict) -> any:
+def trouver_valeur_maximale(d: dict):
     # TODO: Implémentez une fonction pour trouver et retourner la valeur la plus grande dans un dictionnaire.
     raise NotImplementedError
 
 
-def trouver_cle_par_valeur(d: dict, valeur: any) -> list[str]:
+def trouver_cle_par_valeur(d: dict, valeur) -> list[str]:
     # TODO: Implémentez une fonction pour retourner une liste de toutes les clés correspondant à une valeur donnée.
     raise NotImplementedError
 
@@ -169,6 +169,6 @@ def valeurs_uniques(d: dict) -> set:
     raise NotImplementedError
 
 
-def mettre_a_jour_valeur(d: dict, cle: str, nouvelle_valeur: any) -> dict:
+def mettre_a_jour_valeur(d: dict, cle: str, nouvelle_valeur) -> dict:
     # TODO: Implémentez une fonction pour mettre à jour une valeur associée à une clé existante ou en ajouter une nouvelle.
     raise NotImplementedError
