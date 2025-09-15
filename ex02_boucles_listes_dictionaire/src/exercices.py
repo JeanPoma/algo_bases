@@ -34,8 +34,14 @@ def trouver_maximum(nums: list[int]) -> int:
 
 
 def calculer_moyenne(nums: list[int]) -> float:
-    # TODO: Implémentez une fonction pour calculer et retourner la moyenne des valeurs dans la liste.
-    raise NotImplementedError
+    if len(nums) == 0:
+        return 0
+
+    total = 0
+    for number in nums:
+        total += number
+
+    return total / len(nums)
 
 
 def compter_negatifs(nums: list[int]) -> int:
