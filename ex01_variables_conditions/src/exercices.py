@@ -26,8 +26,7 @@ def est_voyelle(lettre: str) -> bool:
 
 def calcul_reduction(prix: float, taux: float) -> float:
     """Retourne le prix après remise (taux en pourcentage)."""
-    # TODO
-    raise NotImplementedError
+    return prix * (1 - taux / 100)
 
 
 def est_bissextile(year: int) -> bool:
