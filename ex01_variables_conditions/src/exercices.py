@@ -13,17 +13,12 @@ def produit(a: int, b: int) -> int:
 
 def est_pair(n: int) -> bool:
     """Vrai si le nombre est pair."""
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+    return n % 2 == 0
+
 
 def est_voyelle(lettre: str) -> bool:
     """Vrai si la lettre est une voyelle."""
-    if lettre.lower() in "aeiouy":
-        return True
-    else:
-        return False
+    return lettre.lower() in "aeiouy"
 
 
 def calcul_reduction(prix: float, taux: float) -> float:
@@ -46,21 +41,15 @@ def est_bissextile(year: int) -> bool:
         - 1900 n'est pas bissextile (divisible par 100, mais pas par 400).
         - 2004 est bissextile (divisible par 4, mais pas par 100).
     """
-    if year % 400 == 0:
-        return True
-    elif year % 100 == 0:
-        return False
-    elif year % 4 == 0:
-        return True
-    else:
-        return False
+    return year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)
+
 
 def racine_carree(x: float) -> float:
     """Retourne la racine carrée d'un nombre."""
     if x < 0:
         raise ValueError
-    else:
-        return x**0.5
+
+    return x**0.5
 
 
 def maximum_trois(a: int, b: int, c: int) -> int:
