@@ -1,9 +1,14 @@
 from __future__ import annotations
-
+from ex01_variables_conditions.src.exercices import est_pair
 
 def somme_pairs(nums: list[int]) -> int:
     # TODO: Implémentez la fonction pour calculer la somme de tous les nombres pairs de la liste donnée.
-    raise NotImplementedError
+    resultat = 0
+    for number in nums:
+        if est_pair(number):
+            resultat += number
+
+    return resultat
 
 
 def compter_occurrences(items: list[int], valeur: int) -> int:
