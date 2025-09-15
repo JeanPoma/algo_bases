@@ -110,8 +110,11 @@ def compter_caracteres(s: str, char: str) -> int:
 
 
 def inverser_chaine(s: str) -> str:
-    # TODO: Implémentez une fonction pour inverser et retourner la chaîne de caractères donnée.
-    raise NotImplementedError
+    inverted_s = ""
+    for character in s:
+        inverted_s = f"{character}{inverted_s}"
+
+    return inverted_s
 
 
 def trouver_occurrences_chaine(s: str, c: str) -> int:
