@@ -64,8 +64,12 @@ def compter_mots(phrase: str) -> int:
 
 
 def trouver_plus_long(items: list[str]) -> str:
-    # TODO: Implémentez une fonction pour trouver et retourner le mot le plus long dans une liste de chaînes de caractères.
-    raise NotImplementedError
+    resultat = ""
+    for mot in items:
+        if len(mot) > len(resultat):
+            resultat = mot
+
+    return resultat
 
 
 def convertir_majuscule(items: str) -> str:
