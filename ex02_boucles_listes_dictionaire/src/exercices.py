@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from os.path import split
+
 from ex01_variables_conditions.src.exercices import est_pair
 
 def somme_pairs(nums: list[int]) -> int:
@@ -45,13 +47,20 @@ def calculer_moyenne(nums: list[int]) -> float:
 
 
 def compter_negatifs(nums: list[int]) -> int:
-    # TODO: Implémentez une fonction pour compter et retourner le nombre d'entiers négatifs dans la liste.
-    raise NotImplementedError
+    resultat = 0
+    for number in nums:
+        if number < 0 :
+            resultat += 1
+
+    return resultat
 
 
 def compter_mots(phrase: str) -> int:
-    # TODO: Implémentez une fonction pour compter le nombre de mots dans une chaîne de caractères donnée.
-    raise NotImplementedError
+    if phrase == "":
+        return 0
+
+    mots = phrase.split(" ")
+    return len(mots)
 
 
 def trouver_plus_long(items: list[str]) -> str:
@@ -59,17 +68,17 @@ def trouver_plus_long(items: list[str]) -> str:
     raise NotImplementedError
 
 
-def convertir_majuscule(items: list[str]) -> list[str]:
+def convertir_majuscule(items: str) -> str:
     # TODO: Implémentez une fonction pour convertir toutes les chaînes de la liste en majuscules.
     raise NotImplementedError
 
 
-def compter_mots_commencant_par(items: list[str], lettre: str) -> int:
+def compter_mots_commencant_par(items: str, lettre: str) -> int:
     # TODO: Implémentez une fonction pour compter les mots commençant par une lettre donnée.
     raise NotImplementedError
 
 
-def trouver_mot_finissant_par(items: list[str], suffixe: str) -> list[str]:
+def trouver_mot_finissant_par(items: str, suffixe: str) -> list[str]:
     # TODO: Implémentez une fonction pour trouver tous les mots qui se terminent par un suffixe donné dans la liste.
     raise NotImplementedError
 
