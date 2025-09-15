@@ -8,8 +8,7 @@ def somme(a: int, b: int) -> int:
 
 def produit(a: int, b: int) -> int:
     """Retourne le produit de deux entiers."""
-    # TODO
-    raise NotImplementedError
+    return a * b
 
 
 def est_pair(n: int) -> bool:
