@@ -28,6 +28,12 @@ def est_voyelle(lettre: str) -> bool:
 
 def calcul_reduction(prix: float, taux: float) -> float:
     """Retourne le prix après remise (taux en pourcentage)."""
+    if prix < 0:
+        raise ValueError
+
+    if taux > 100:
+        return 0.0
+
     return prix * (1 - taux / 100)
 
 
