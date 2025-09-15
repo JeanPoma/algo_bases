@@ -20,8 +20,7 @@ def compter_occurrences(items: list[int], valeur: int) -> int:
 
 
 def table_multiplication(n: int) -> list[int]:
-    # TODO: Implémentez la fonction pour retourner la table de multiplication de `n` (jusqu'à 10 inclus).
-    raise NotImplementedError
+    return [n * i for i in range(1, 11)]
 
 
 def trouver_maximum(nums: list[int]) -> int:
